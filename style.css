@@ -28,6 +28,13 @@ body{
     color: #fff;
 }
 
+.footer-left-title h4 a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-left-btn i:hover{
+    color: #fff;
+}
 
 /*BODY*/
 /*header*/
@@ -77,7 +84,44 @@ body{
 }
 
 /*footer*/
-footer{
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: 90px;
     background-color: #282828;
-}
+  }
+  .footer-left{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left img{
+    width: 70px;
+    height: 70px;
+  }
+  .footer-left-title{
+    padding-left: 15px;
+  }
+  .footer-left-title h3{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .footer-left-title h4 a{
+    font-size: 10px;
+    color: #7d7f84;
+    text-decoration: none;
+  }
+  .footer-left-btn{
+    padding-left: 30px;
+    color: #7d7f84;
+  }
+  .footer-left-btn i{
+    padding: 5px;
+  }
+
+  .footer-right{
+    padding-right: 20px;
+  }
