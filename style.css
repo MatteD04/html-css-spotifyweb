@@ -10,6 +10,25 @@ body{
     color: #fff; 
 }
 
+/*BUTTONS*/
+.btn-upgrade{
+    padding: 10px 30px;
+    border-color: #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*HOVER*/
+.btn-upgrade:hover{
+    font-size: 15px;
+}
+.song-bar a:hover{
+    color: #fff;
+}
+
+
 /*BODY*/
 /*header*/
 .row{
@@ -26,11 +45,35 @@ body{
 }
 
 /*main*/
+.nav-right-head{
+    height: 80px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #080b12;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
 .nav-right{
     width: 100%;
     height: calc(100vh - 90px);
     overflow-y: auto;
     background-color: #141922;
+}
+.song-bar ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.song-bar li{
+    padding: 15px;
+}
+.song-bar a{
+    color: #7d7f84;
+    text-decoration: none;
 }
 
 /*footer*/
