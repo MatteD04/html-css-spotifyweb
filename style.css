@@ -8,3 +8,31 @@
 body{
     font-family: "Montserrat", sans-serif;  
 }
+
+/*BODY*/
+/*header*/
+.row{
+    display: flex;
+}
+.nav-left{
+    min-width: 200px;
+    height: calc(100vh - 90px);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+/*main*/
+.nav-right{
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    background-color: blueviolet;
+}
+
+/*footer*/
+footer{
+    height: 90px;
+    background-color: blue;
+}
