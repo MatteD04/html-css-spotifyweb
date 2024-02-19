@@ -6,7 +6,8 @@
 }
 /*GENERAL*/
 body{
-    font-family: "Montserrat", sans-serif;  
+    font-family: "Montserrat", sans-serif;
+    color: #fff; 
 }
 
 /*BODY*/
@@ -15,12 +16,13 @@ body{
     display: flex;
 }
 .nav-left{
-    min-width: 200px;
-    height: calc(100vh - 90px);
-    padding-left: 20px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    min-width: 200px;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    padding-left: 20px;
+    background-color: black;
 }
 
 /*main*/
@@ -28,11 +30,11 @@ body{
     width: 100%;
     height: calc(100vh - 90px);
     overflow-y: auto;
-    background-color: blueviolet;
+    background-color: #141922;
 }
 
 /*footer*/
 footer{
     height: 90px;
-    background-color: blue;
+    background-color: #282828;
 }
