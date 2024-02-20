@@ -60,6 +60,10 @@ body{
   background: #ADFF2F;
   cursor: pointer;
 }
+.bar-volume:hover .bar-volume-active{
+  background: #ADFF2F;
+  cursor: pointer;
+}
 
 /*BODY*/
 /*header*/
@@ -253,8 +257,35 @@ main{
 }
 
 .footer-right{
-    padding-right: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+.footer-right a{
+  color: #fff;
+  padding-right: 12px;
+}
+.bar-volume{
+  position: relative;
+  height: 3px;
+  width: 80px;
+  display: inline-block;
+  background: #7d7f84;
+  border-radius: 3px;
+}
+.bar-volume-active{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 3px;
+  width: 30%;
+  display: inline-block;
+  background: #fff;
+  border-radius: 3px;
+}
+
+
 
 
 /*RESPONSIVITY*/
