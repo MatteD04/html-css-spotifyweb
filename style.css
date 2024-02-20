@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+  max-width: 100%;
+}
+
 /*GENERAL*/
 body{
     font-family: "Montserrat", sans-serif;
@@ -44,11 +48,67 @@ body{
 .nav-left{
     display: flex;
     flex-direction: column;
-    min-width: 200px;
+    width: 200px;
+    flex-shrink: 0;
     height: calc(100vh - 90px);
-    overflow-y: auto;
-    padding-left: 20px;
     background-color: black;
+    padding: 16px;
+    overflow-y: hidden;
+}
+.nav-left a{
+  text-decoration: none;
+  color: #7d7f84;
+}
+.nav-left li{
+  padding-bottom: 8px;
+}
+.nav-left button{
+  border: none;
+  background-color: transparent;
+  color: #7d7f84;
+  cursor: pointer;
+}
+.name h4 i{
+  color: #7d7f84;
+}
+
+.logo img{
+  max-height: 40px;
+  margin-bottom: 20px;
+}
+.main-nav ul{
+  list-style: none;
+}
+.main-nav ul img{
+  max-width: 25px;
+}
+.playlist-title h3{
+  padding: 12px 0 8px 0;
+}
+.playlist-title button{
+  margin-bottom: 14px;
+}
+.playlist-title i{
+  font-size: 40px;
+}
+.playlist{
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.name{
+  margin-top: auto;
+}
+.name button i{
+  font-size: 14px;
+}
+.name i{
+  font-size: 25px;
+}
+.name button{
+  margin-bottom: 10px;
+}
+.name h4{
+  margin-top: 10px;
 }
 
 /*main*/
@@ -63,8 +123,10 @@ body{
     z-index: 1;
 
 }
+main{
+  width: 100%;
+}
 .nav-right{
-    width: 100%;
     height: calc(100vh - 90px);
     overflow-y: auto;
     background-color: #141922;
@@ -92,36 +154,36 @@ body{
     height: 90px;
     background-color: #282828;
   }
-  .footer-left{
+.footer-left{
     display: flex;
     margin-left: 20px;
     justify-content: space-between;
     align-items: center;
-  }
-  .footer-left img{
+}
+.footer-left img{
     width: 70px;
     height: 70px;
-  }
-  .footer-left-title{
+}
+.footer-left-title{
     padding-left: 15px;
-  }
-  .footer-left-title h3{
+}
+.footer-left-title h3{
     font-size: 15px;
     font-weight: 700;
-  }
-  .footer-left-title h4 a{
+}
+.footer-left-title h4 a{
     font-size: 10px;
     color: #7d7f84;
     text-decoration: none;
-  }
-  .footer-left-btn{
+}
+.footer-left-btn{
     padding-left: 30px;
     color: #7d7f84;
-  }
-  .footer-left-btn i{
+}
+.footer-left-btn i{
     padding: 5px;
-  }
+}
 
-  .footer-right{
+.footer-right{
     padding-right: 20px;
-  }
+}
