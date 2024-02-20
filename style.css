@@ -25,6 +25,13 @@ body{
 }
 
 /*HOVER*/
+.nav-left a:hover{
+  color: #fff;
+}
+.nav-left button:hover{
+  color: #fff;
+}
+
 .btn-upgrade:hover{
     font-size: 15px;
 }
