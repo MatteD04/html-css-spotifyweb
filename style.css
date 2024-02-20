@@ -53,6 +53,13 @@ body{
 .footer-left-btn i:hover{
     color: #fff;
 }
+.icon-big:hover {
+  font-size: 40px;
+}
+.footer-center-bottom:hover .bar-minutes-active{
+  background: #ADFF2F;
+  cursor: pointer;
+}
 
 /*BODY*/
 /*header*/
@@ -200,6 +207,49 @@ main{
 }
 .footer-left-btn i{
     padding: 5px;
+}
+
+.footer-center{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-center-top{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-center-top a{
+  color: #fff;
+}
+.icon-big{
+  font-size: 35px;
+}
+.footer-center-bottom{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bar-minutes{
+  position: relative;
+  height: 3px;
+  width: 70%;
+  display: inline-block;
+  background-color: #7d7f84;
+  border-radius: 3px;
+}
+.bar-minutes-active{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 3px;
+  width: 30%;
+  display: inline-block;
+  background: #fff;
+  border-radius: 3px;
 }
 
 .footer-right{
