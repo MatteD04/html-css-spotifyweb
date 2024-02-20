@@ -216,6 +216,7 @@ main{
   }
   .logo-small{
     display: block;
+    flex-grow: 1;
   }
   .logo-big{
     display: none;
@@ -234,6 +235,9 @@ main{
   }
   .name-none{
     display: block;
+    color:#7d7f84;
+    padding: 0 10px 0 6px;
+    font-size: 25px;
   }
 
 }
