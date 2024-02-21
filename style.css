@@ -45,6 +45,9 @@ body{
 .song-bar a:hover{
     color: #fff;
 }
+.card:hover .card-hover{
+  display: flex;
+}
 
 .footer-left-title h4 a:hover{
     color: #fff;
@@ -175,7 +178,7 @@ main{
 }
 
 .played{
-  margin-left: 20px;
+  margin: 0 20px;
   margin-bottom: 40px;
 }
 .played p{
@@ -187,7 +190,7 @@ main{
 }
 .box{
   width: calc(100% / 6);
-  padding: 10px 10px 0 0;
+  padding: 20px 10px 0 0;
 }
 .card-img{
   position: relative;
@@ -206,14 +209,16 @@ main{
   align-items: center;
   justify-content: center;
 }
+.card-circle{
+  border-radius: 50%;
+  overflow: hidden;
+}
 .card-hover i{
   font-size: 50px;
 }
-.card:hover .card-hover{
-  display: flex;
-}
-.circle-box{
-  clip-path: circle();
+.card-info{
+  text-align: center;
+  padding-top: 15px;
 }
 
 /*footer*/
