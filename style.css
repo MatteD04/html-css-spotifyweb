@@ -187,9 +187,30 @@ main{
 }
 .box{
   width: calc(100% / 6);
-  height: 200px;
-  background-color: #ADFF2F;
-  margin: 20px 10px 10px 0;
+  padding: 10px 10px 0 0;
+}
+.card-img{
+  position: relative;
+}
+.card-img img{
+  display: block;
+}
+.card-hover{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+.card-hover i{
+  font-size: 50px;
+}
+.card:hover .card-hover{
+  display: flex;
 }
 .circle-box{
   clip-path: circle();
@@ -311,8 +332,16 @@ main{
 
 
 /*RESPONSIVITY*/
-@media screen and (max-width:1100px){}
-@media screen and (max-width:700px){}
+@media screen and (max-width:1100px){
+  .box{
+    width: calc(100% / 4);
+  }
+}
+@media screen and (max-width:700px){
+  .box{
+    width: calc(100% / 2);
+  }
+}
 @media screen and (max-width:600px){
   header{
     width: 70px;
