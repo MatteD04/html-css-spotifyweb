@@ -227,11 +227,11 @@ main{
     text-decoration: none;
 }
 .footer-left-btn{
-    padding-left: 30px;
+    padding-left: 10px;
     color: #7d7f84;
 }
 .footer-left-btn i{
-    padding: 5px;
+    padding: 1px;
 }
 
 .footer-center{
