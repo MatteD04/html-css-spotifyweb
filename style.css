@@ -233,8 +233,8 @@ main{
 .footer-left{
     display: flex;
     margin-left: 20px;
-    justify-content: space-between;
     align-items: center;
+    width: 40%;
 }
 .footer-left img{
     width: 70px;
@@ -375,6 +375,13 @@ main{
     color:#7d7f84;
     padding: 0 10px 0 6px;
     font-size: 25px;
+  }
+
+  .footer-left-btn{
+    display: none;
+  }
+  .link-none{
+    display: none;
   }
 
 }
